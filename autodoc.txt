@@ -1,0 +1,62 @@
+/**
+ * @method  array URLProtocolsAsArray() 
+ * @method  static  array URLProtocolsAsArray() 
+ * @param \Inilim\Data\Method\URLProtocolsAsArray
+ * 
+ * @method  \Closure URLProtocolsAsClosure() 
+ * @method  static  \Closure URLProtocolsAsClosure() 
+ * @param \Inilim\Data\Method\URLProtocolsAsClosure
+ * 
+ * @method  string URLProtocolsAsString(string $separator = "") 
+ * @method  static  string URLProtocolsAsString(string $separator = "") 
+ * @param \Inilim\Data\Method\URLProtocolsAsString
+ * 
+ * @method  array cyrillicAlphabetAsArray(bool $upper = false) 
+ * @method  static  array cyrillicAlphabetAsArray(bool $upper = false) 
+ * @param \Inilim\Data\Method\cyrillicAlphabetAsArray
+ * 
+ * @method  \Closure cyrillicAlphabetAsClosure(bool $upper = false) 
+ * @method  static  \Closure cyrillicAlphabetAsClosure(bool $upper = false) 
+ * @param \Inilim\Data\Method\cyrillicAlphabetAsClosure
+ * 
+ * @method  string cyrillicAlphabetAsString(string $separator = "", bool $upper = false) 
+ * @method  static  string cyrillicAlphabetAsString(string $separator = "", bool $upper = false) 
+ * @param \Inilim\Data\Method\cyrillicAlphabetAsString
+ * 
+ * @method  array latinAlphabetAsArray(bool $upper = false) 
+ * @method  static  array latinAlphabetAsArray(bool $upper = false) 
+ * @param \Inilim\Data\Method\latinAlphabetAsArray
+ * 
+ * @method  \Closure latinAlphabetAsClosure(bool $upper = false) 
+ * @method  static  \Closure latinAlphabetAsClosure(bool $upper = false) 
+ * @param \Inilim\Data\Method\latinAlphabetAsClosure
+ * 
+ * @method  string latinAlphabetAsString(string $separator = "", bool $upper = false) 
+ * @method  static  string latinAlphabetAsString(string $separator = "", bool $upper = false) 
+ * @param \Inilim\Data\Method\latinAlphabetAsString
+ * 
+ * @method  string[] magicMethodsAsArray() 
+ * @method  static  string[] magicMethodsAsArray() 
+ * @param \Inilim\Data\Method\magicMethodsAsArray
+ * 
+ * @method  \Closure():string[] magicMethodsAsClosure() 
+ * @method  static  \Closure():string[] magicMethodsAsClosure() 
+ * @param \Inilim\Data\Method\magicMethodsAsClosure
+ * 
+ * @method  string magicMethodsAsString(string $separator = "") 
+ * @method  static  string magicMethodsAsString(string $separator = "") 
+ * @param \Inilim\Data\Method\magicMethodsAsString
+ * 
+ * @method  string numbersAsArray() 
+ * @method  static  string numbersAsArray() 
+ * @param \Inilim\Data\Method\numbersAsArray
+ * 
+ * @method  \Closure numbersAsClosure() 
+ * @method  static  \Closure numbersAsClosure() 
+ * @param \Inilim\Data\Method\numbersAsClosure
+ * 
+ * @method  string numbersAsString(string $separator = "") 
+ * @method  static  string numbersAsString(string $separator = "") 
+ * @param \Inilim\Data\Method\numbersAsString
+ * 
+ */

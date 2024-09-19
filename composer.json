@@ -1,0 +1,28 @@
+{
+    "name": "inilim/func_core",
+    "description": "func_core",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inilim\\FuncCore\\": "src/"
+        },
+        "files": []
+    },
+    "authors": [
+        {
+            "name": "inilim"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "inilim/lazy_method": "dev-simple_function"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "@stable",
+        "inilim/dump": "dev-main",
+        "inilim/parse_lazy_method": "dev-main"
+    }
+}
