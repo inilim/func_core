@@ -9,6 +9,10 @@ use Inilim\LazyMethod\LazyMethodAbstract;
  * @method  static  bool isNumeric(mixed $v) 
  * @param \Inilim\FuncCore\Method\isNumeric
  * 
+ * @method  TValue[] unique(TValue[] $array) 
+ * @method  static  TValue[] unique(TValue[] $array) 
+ * @param \Inilim\FuncCore\Method\unique
+ * 
  */
 class FuncCore extends LazyMethodAbstract
 {
