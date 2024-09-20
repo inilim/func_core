@@ -21,6 +21,10 @@ use Inilim\LazyMethod\LazyMethodAbstract;
  * @method  static  bool isNumeric(mixed $v) 
  * @param \Inilim\FuncCore\Method\isNumeric
  * 
+ * @method  int length(string $value, string|null $encoding = 'UTF-8') 
+ * @method  static  int length(string $value, string|null $encoding = 'UTF-8') 
+ * @param \Inilim\FuncCore\Method\length
+ * 
  * @method  string[] magicMethodsAsArray() 
  * @method  static  string[] magicMethodsAsArray() 
  * @param \Inilim\FuncCore\Method\magicMethodsAsArray

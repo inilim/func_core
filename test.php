@@ -6,4 +6,5 @@ use Inilim\Dump\Dump;
 use Inilim\FuncCore\FuncCore;
 
 Dump::init();
-$a = FuncCore::unique([1, 2, 3]);
+$a = FuncCore::unique([1, 2, 3, 1]);
+de($a);
