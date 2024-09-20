@@ -165,7 +165,9 @@ foreach ($files as $file) {
     // исключить методы
     // ------------------------------------------------------------------
 
-    if (\in_array($res->name, [])) {
+    if (\in_array($res->name, [
+        'unique'
+    ])) {
         continue;
     }
 

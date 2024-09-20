@@ -33,13 +33,20 @@ use Inilim\LazyMethod\LazyMethodAbstract;
  * @method  static  string magicMethodsAsString(string $separator = "") 
  * @param \Inilim\FuncCore\Method\magicMethodsAsString
  * 
- * @method  TValue[] unique(TValue[] $array) 
- * @method  static  TValue[] unique(TValue[] $array) 
- * @param \Inilim\FuncCore\Method\unique
- * 
  */
 class FuncCore extends LazyMethodAbstract
 {
     protected const NAMESPACE   = 'Inilim\FuncCore\Method';
     protected const PATH_TO_DIR = __DIR__ . '/Method';
+
+    /**
+     * @template TValue
+     *
+     * @param TValue[] $array
+     * @return TValue[]
+     */
+    static function unique($array)
+    {
+        return self::__callStatic(__FUNCTION__, \func_get_args());
+    }
 }
