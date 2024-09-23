@@ -17,6 +17,18 @@ use Inilim\LazyMethod\LazyMethodAbstract;
  * @method  static  string URLProtocolsAsString(string $separator = "") 
  * @param \Inilim\FuncCore\Method\URLProtocolsAsString
  * 
+ * @method  int|float clamp(int|float $number, int|float $min, int|float $max) 
+ * @method  static  int|float clamp(int|float $number, int|float $min, int|float $max) 
+ * @param \Inilim\FuncCore\Method\clamp
+ * 
+ * @method  int getCurLenMaxInt() 
+ * @method  static  int getCurLenMaxInt() 
+ * @param \Inilim\FuncCore\Method\getCurLenMaxInt
+ * 
+ * @method  int getRandomIntByLength(int $length) 
+ * @method  static  int getRandomIntByLength(int $length) 
+ * @param \Inilim\FuncCore\Method\getRandomIntByLength
+ * 
  * @method  bool isNumeric(mixed $v) 
  * @method  static  bool isNumeric(mixed $v) 
  * @param \Inilim\FuncCore\Method\isNumeric
